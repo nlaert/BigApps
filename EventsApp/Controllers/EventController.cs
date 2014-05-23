@@ -23,9 +23,9 @@ namespace EventsApp.Controllers
         }
 
         // GET: api/Event/5
-        public string Get(int id)
+        public Event Get(int id)
         {
-            return "value";
+            return events.ElementAt<Event>(id);
         }
 
         // POST: api/Event
